@@ -39,7 +39,6 @@ const store = configureStore({
 
 const persistor = persistStore(store);
 
-// Auto-login desde cookies/localStorage
 const token = localStorage.getItem('authToken');
 const userCookie = Cookies.get('user'); 
 
