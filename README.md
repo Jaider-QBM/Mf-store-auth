@@ -1,4 +1,4 @@
-<p align="center"> <img src="public/logo.png" alt="Bodytech" width="300"> </p> <h1 align="center">Mf-store-auth - Estado global Compartido (Redux)</h1>
+<h1 align="center">Mf-store-auth - Estado global Compartido (Redux)</h1>
 
 Este repositorio implementa el manejo de estado global utilizando **Redux** y **redux-persist**. Este microfrontend expone un **store compartido** a través de **Module Federation**, permitiendo que otros microfrontends dentro del ecosistema accedan y sincronicen su estado de forma centralizada.
 
